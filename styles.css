@@ -1,53 +1,55 @@
-@import url('http://fonts.googleapis.com/css?family=Montserrat:500'); 
+@import url('http://fonts.googleapis.com/css?family=Montserrat:500');
 
 * {
-    box-sizing: border-box; 
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+
 
 }
 
-li,a, button {
+li,
+a,
+button {
     font-family: "Montserrat", sans-serif;
-    font-weight: 500; 
-    font-size: 16px; 
+    font-weight: 500;
+    font-size: 16px;
     color: #ffffff;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 header {
     display: flex;
-    justify-content: flex-end; 
-    align-items: center; 
-    padding: 30px 10%; 
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
     background-color: #605B56;
     height: 100px;
-    
+
 
 }
 
 .logo {
-    margin-right:auto;
-    height: 250px; 
-    width: 250px; 
+    margin-right: auto;
+    height: 250px;
+    width: 250px;
     cursor: pointer;
-    
+
 }
 
 .nav_links {
-    link-style: none; 
-    
-    
+    link-style: none;
+
+
 }
-   
-.nav_links li { 
-    display: inline-block; 
-    padding: 0px 20px; 
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
 }
 
 .nav_links li a {
-    transition: all 0.3s ease 0s; 
+    transition: all 0.3s ease 0s;
 }
 
 .nav_links li a:hover {
@@ -56,80 +58,80 @@ header {
 
 button {
     margin-left: 20px;
-    padding: 9px 25px; 
+    padding: 9px 25px;
     background-color: #ACC18A;
-    border: none; 
-    border-radius: 50px; 
-    cursor: pointer; 
-    transition: all 0.3s ease 0s; 
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
 
 button:hover {
-    background-color: #90a274; 
+    background-color: #90a274;
 }
 
 .name {
-    text-align: left; 
+    text-align: left;
     padding: 30px 120px 10px 120px;
     color: #605B56;
-    font-family: "Ribeye", sans-serif; 
-    
+    font-family: "Ribeye", sans-serif;
+
 }
 
 .role {
-    text-align: left; 
+    text-align: left;
     padding: 0px 0px 30px 120px;
     color: #FFFF;
     font-family: "Ribeye", sans-serif;
 }
 
 .hook {
-    text-align: left; 
+    text-align: left;
     padding: 10px 0px 10px 120px;
     color: #ffff;
-    font-family: "Ribeye", sans-serif; 
-    background-image: 
-    linear-gradient(90deg, rgb(96, 91, 86), rgb(96, 91, 86)); 
-    width: 50vw; 
-    height: 10vh; 
+    font-family: "Ribeye", sans-serif;
+    background-image:
+        linear-gradient(90deg, rgb(96, 91, 86), rgb(96, 91, 86));
+    width: 50vw;
+    height: 10vh;
 }
 
 .box {
     width: 100%;
-    height: 30vh; 
-    background-image: linear-gradient(rgb(172, 193, 138),rgb(96, 91, 86));  
+    height: 30vh;
+    background-image: linear-gradient(rgb(172, 193, 138), rgb(96, 91, 86));
 }
 
 
 .section1 {
     padding: 60px 120px 30px 120px;
-    height: 1000px; 
-    width: 100%; 
+    height: 1000px;
+    width: 100%;
 }
 
 .section2 {
     padding: 0px 120px 30px 120px;
-    height: 1000px; 
-    width: 100%; 
+    height: 1000px;
+    width: 100%;
 }
 
 .section3 {
     padding: 0px 120px 30px 120px;
-    height: 1000px; 
-    width: 100%; 
+    height: 1000px;
+    width: 100%;
 }
 
 .section1:hover {
-   cursor: pointer;
+    cursor: pointer;
 }
 
 
 h1 {
     text-align: center;
-    padding: 3%; 
-    font-family: "Ribeye", sans-serif; 
+    padding: 3%;
+    font-family: "Ribeye", sans-serif;
     text-shadow: #000000;
-} 
+}
 
 
 h2 {
@@ -138,176 +140,236 @@ h2 {
 }
 
 p {
-    padding: 30px 120px 60px 120px; 
-       
+    padding: 30px 120px 60px 120px;
+
 }
 
 .happylogo {
-    padding: 60px 0px 0px 120px; 
+    padding: 60px 0px 0px 120px;
     height: 260px;
-    width: 600px; 
-    cursor: pointer; 
-    
-    }
-      
-    .happybox {
-        width: 100%;
-        height: 62vh; 
-        background-image: linear-gradient(rgb(253, 255, 241),rgb(121, 208, 242));  
-    }
+    width: 600px;
+    cursor: pointer;
 
-    .happyh1 {
-        text-align: left;
-        padding: 190px 120px 0px 120px;
-        background-image: 
-        linear-gradient(30deg, rgb(70, 119,131), rgb(158,231,183));
-        background-clip: text; 
-        color: transparent;
-        display: inline block;  
-        filter: drop-shadow(2.5px 2.5px #3333)
-          
-    }
+}
 
-    .happyhook {
-        text-align: left; 
-        padding: 120px 10px 0px 10px;
-        color: #605B56;
-        font-family: "Ribeye", sans-serif;
-    }
+.happybox {
+    width: 100%;
+    height: 62vh;
+    background-image: linear-gradient(rgb(253, 255, 241), rgb(121, 208, 242));
+}
 
-    .happyphone {
-     padding: 60px 60px 60px 150px;
-     height:1000px; 
-     width: 700px; 
-     }
+.happyh1 {
+    text-align: left;
+    padding: 190px 120px 0px 120px;
+    background-image:
+        linear-gradient(30deg, rgb(70, 119, 131), rgb(158, 231, 183));
+    background-clip: text;
+    color: transparent;
+    display: inline block;
+    filter: drop-shadow(2.5px 2.5px #3333)
+}
 
-     .happyjobrole {
-        text-align: left; 
-        padding: 60px 30px 0px 30px;
-        color: #605B56;
-     }
+.happyhook {
+    text-align: left;
+    padding: 120px 10px 0px 10px;
+    color: #605B56;
+    font-family: "Ribeye", sans-serif;
+}
 
-     .happytimeframe {
-        padding: 10px 0px; 
-        text-align: right;
-        display: inline-block; 
-        color: #605B56;
-     }
+.happyphone {
+    padding: 60px 60px 60px 150px;
+    height: 1000px;
+    width: 700px;
+}
 
-     .happystatement {
-        text-align: left;
-        padding: 30px 20px 0px 120px; 
-        background-image: 
-        linear-gradient(0deg, rgb(186, 203,150), rgb(70, 119,131));
-        background-clip: text; 
-        color: transparent;
-        display: inline block;  
-        filter: drop-shadow(2px 2px #3333);
-     }
+.happyjobrole {
+    text-align: left;
+    padding: 60px 30px 0px 30px;
+    color: #605B56;
+}
 
-     .happybackground {
-        text-align: left;
-        padding: 90px 0px 0px 150px;
-        background-image: 
-        linear-gradient(0deg, rgb(186, 203,150), rgb(70, 119,131));
-        background-clip: text; 
-        color: transparent;
-        display: inline block;  
-        filter: drop-shadow(2px 2px #3333);
-     }
+.happytimeframe {
+    padding: 10px 0px;
+    text-align: right;
+    display: inline-block;
+    color: #605B56;
+}
 
-     .happyvan {
-        float: right;
-        width: 30%;
-        padding: 0px 150px 0px 0px; 
-        height: 600px;
-        width: 700px;
-     }
+.happystatement {
+    text-align: left;
+    padding: 30px 20px 0px 120px;
+    background-image:
+        linear-gradient(0deg, rgb(186, 203, 150), rgb(70, 119, 131));
+    background-clip: text;
+    color: transparent;
+    display: inline block;
+    filter: drop-shadow(2px 2px #3333);
+}
 
-     .happychart { 
-        padding: 30px 0px 0px 120px;  
-        height: 300px;
-        width:900px;
-     }
+.happybackground {
+    text-align: left;
+    padding: 90px 0px 0px 150px;
+    background-image:
+        linear-gradient(0deg, rgb(186, 203, 150), rgb(70, 119, 131));
+    background-clip: text;
+    color: transparent;
+    display: inline block;
+    filter: drop-shadow(2px 2px #3333);
+}
 
-     .happyplan {
-        text-align: left;
-        padding: 60px 0px 0px 150px;
-        background-image: 
-        linear-gradient(0deg, rgb(186, 203,150), rgb(70, 119,131));
-        background-clip: text; 
-        color: transparent;
-        display: inline block;  
-        filter: drop-shadow(2px 2px #3333);
-     }
-     
-     .happyresearch {
-        text-align: left;
-        padding: 120px 0px 0px 150px;
-        background-image: 
-        linear-gradient(0deg, rgb(186, 203,150), rgb(70, 119,131));
-        background-clip: text; 
-        color: transparent;
-        display: inline block;  
-        filter: drop-shadow(2px 2px #3333);
-     }
+.happyvan {
+    float: right;
+    width: 30%;
+    padding: 0px 150px 0px 0px;
+    height: 600px;
+    width: 700px;
+}
 
-     .dogfindings {
-        padding: 60px 150px 60px 150px; 
-        height: 1000px;
-        width: 100%; 
-     }
+.happychart {
+    padding: 30px 0px 0px 120px;
+    height: 300px;
+    width: 900px;
+}
 
-     .wireframebox1 {
-        width: 100%;
-        height: 98vh; 
-        background-image: linear-gradient(rgb(121, 208, 242),rgb(158, 233, 183));
-     }
+.happyplan {
+    text-align: left;
+    padding: 60px 0px 0px 150px;
+    background-image:
+        linear-gradient(0deg, rgb(186, 203, 150), rgb(70, 119, 131));
+    background-clip: text;
+    color: transparent;
+    display: inline block;
+    filter: drop-shadow(2px 2px #3333);
+}
 
-     .happyframe {
-        padding: 50px 120px 0px 150px;
-        height: 1080px; 
-         
-     }
+.happyresearch {
+    text-align: left;
+    padding: 120px 0px 0px 150px;
+    background-image:
+        linear-gradient(0deg, rgb(186, 203, 150), rgb(70, 119, 131));
+    background-clip: text;
+    color: transparent;
+    display: inline block;
+    filter: drop-shadow(2px 2px #3333);
+}
 
-     .happyframeh1 {
-        padding: 150px 0px 0px 120px;
-        text-align: left;   
-        color: #FDFFF1;
-        filter: drop-shadow(2px 2px #3333);
+.dogfindings {
+    padding: 60px 150px 60px 150px;
+    height: 1000px;
+    width: 100%;
+}
 
-     }
+.wireframebox1 {
+    width: 100%;
+    height: 98vh;
+    background-image: linear-gradient(rgb(121, 208, 242), rgb(158, 233, 183));
+}
 
-     .wireframeinfo {
-        padding: 30px 0px 0px 120px;
-        text-align: left;   
-        color: #605B56;
-        filter: drop-shadow(1px 1px #3333);
-     }
-    
-    
-    .richkeylogo {
-        padding: 20px 0px 20px 120px; 
-        height: 210px;
-        width: 600px; 
-        cursor: pointer; 
-    }
+.happyframe {
+    padding: 50px 120px 0px 150px;
+    height: 1080px;
 
-    .souldesignslogo {
-        padding: 90px 0px 0px 120px;   
-        height: 300px;
-        width: 360px; 
-        cursor: pointer; 
-    }
+}
+
+.happyframeh1 {
+    padding: 150px 0px 0px 120px;
+    text-align: left;
+    color: #FDFFF1;
+    filter: drop-shadow(2px 2px #3333);
+
+}
+
+.wireframeinfo {
+    padding: 30px 0px 0px 120px;
+    text-align: left;
+    color: #605B56;
+    filter: drop-shadow(1px 1px #3333);
+}
 
 
-    .happybackinfo {
-         padding: 30px 0px 0px 150px 
-    }
- 
- 
- 
-    .me {
+.richkeylogo {
+    padding: 20px 0px 20px 120px;
+    height: 210px;
+    width: 600px;
+    cursor: pointer;
+}
+
+.richbox {
+    width: 100%;
+    height: 68vh;
+    background-image: linear-gradient(rgb(139, 152, 105), rgb(68, 70, 69));
+}
+
+.richphone {
+    padding: 60px 120px 60px 150px;
+    height: 1000px;
+    width: 700px;
+}
+
+.richphoneopen {
+    align: right;
+    padding: 0px 0px 0px 0px;
+    height: 1000px;
+    width: 700px;
+
+}
+
+.richh1 {
+    text-align: left;
+    padding: 190px 120px 0px 120px;
+    color: #FDFFF1;
+    display: inline block;
+    filter: drop-shadow(2.5px 2.5px #3333)
+}
+
+.richhook {
+    text-align: left;
+    padding: 120px 10px 0px 10px;
+    color: #FDFFF1;
+    font-family: "Ribeye", sans-serif;
+
+}
+
+.richrole {
+    text-align: left;
+    padding: 60px 30px 0px 30px;
+    color: #FDFFF1;
+}
+
+.richtimeframe {
+    text-align: left;
+    padding: 10px 30px 0px 30px;
+    color: #FDFFF1;
+}
+
+.richbackground {
+    text-align: left;
+    padding: 60px 30px 0px 30px;
+    color: #FDFFF1;
+}
+
+.richbackinfo {
+    text-align: left;
+    padding: 10px 30px 0px 30px;
+    color: #FDFFF1;
+}
+
+
+.souldesignslogo {
+    padding: 90px 0px 0px 120px;
+    height: 300px;
+    width: 360px;
+    cursor: pointer;
+}
+
+
+.happybackinfo {
+    padding: 30px 0px 0px 150px
+}
+
+
+
+.me {
     padding: 60px 60px 30px 120px;
     height: 900px;
     width: 900px;
@@ -315,20 +377,20 @@ p {
 }
 
 .abouttitle {
-   text-align: left;
-   padding: 60px 120px 0px 120px; 
-   color: #605B56;
+    text-align: left;
+    padding: 60px 120px 0px 120px;
+    color: #605B56;
 
 }
 
 .experience {
     text-align: left;
-   padding: 60px 120px 0px 120px;
-   color: #605B56;
-} 
+    padding: 60px 120px 0px 120px;
+    color: #605B56;
+}
 
 .hobbies {
     text-align: left;
-   padding: 0px 10px 0px 120px; 
-   color: #605B56;
+    padding: 0px 10px 0px 120px;
+    color: #605B56;
 }
