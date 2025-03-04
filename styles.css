@@ -362,6 +362,12 @@ p {
     cursor: pointer;
 }
 
+.soulphone {
+    padding: 60px 60px 60px 150px;
+    height: 1000px;
+    width: 700px;
+}
+
 
 .happybackinfo {
     padding: 30px 0px 0px 150px
