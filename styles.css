@@ -368,6 +368,17 @@ p {
     width: 600px;
 }
 
+.soulheading {
+    text-align: left;
+    padding: 190px 120px 0px 120px;
+    color:#272838
+}
+
+.soulhook {
+    text-align: left;
+    padding: 60px 10px 0px 10px;
+    color:#272838
+}
 
 .happybackinfo {
     padding: 30px 0px 0px 150px
