@@ -99,7 +99,7 @@ button:hover {
 .box {
     width: 100%;
     height: 30vh;
-    background-image: linear-gradient(rgb(172, 193, 138), rgb(172, 193, 138));
+    background-image: linear-gradient(rgb(172, 193, 138), rgb(172, 193, 138  ));
 }
 
 
@@ -262,7 +262,7 @@ p {
 .wireframebox1 {
     width: 100%;
     height: 98vh;
-    background-image: linear-gradient(rgb(121, 208, 242), rgb(121, 208, 242));
+    background-image: linear-gradient(rgb(121, 208, 242), rgb(158, 233, 183));
 }
 
 .happyframe {
@@ -368,6 +368,17 @@ p {
     width: 600px;
 }
 
+.soulheading {
+    text-align: left;
+    padding: 190px 120px 0px 120px;
+    color:#272838;
+}
+
+.soulhook {
+    text-align: left;
+    padding: 60px 10px 0px 10px;
+    color:#272838; 
+}
 
 .happybackinfo {
     padding: 30px 0px 0px 150px
