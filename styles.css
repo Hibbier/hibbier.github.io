@@ -354,6 +354,17 @@ p {
     color: #FDFFF1;
 }
 
+.richstatement { 
+    text-align: left;
+    padding: 10px 30px 0px 30px;
+    color: #FDFFF1;
+}
+
+.richstateinfo { 
+    text-align: left;
+    padding: 10px 30px 0px 30px;
+    color: #FDFFF1;
+}
 
 .souldesignslogo {
     padding: 90px 0px 0px 120px;
