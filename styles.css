@@ -346,6 +346,7 @@ p {
     text-align: left;
     padding: 60px 30px 0px 30px;
     color: #FDFFF1;
+    font-family: "Ribeye", sans-serif;
 }
 
 .richbackinfo {
@@ -359,7 +360,8 @@ p {
     padding: 190px 120px 0px 120px;
     color: #303633;
     display: inline block; 
-    filter: drop-shadow(2.5px 2.5px #3333)
+    filter: drop-shadow(2.5px 2.5px #3333);
+    font-family: "Ribeye", sans-serif;
 }
 
 .richstate {
