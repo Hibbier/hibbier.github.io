@@ -357,7 +357,7 @@ p {
 
 .richproblem {
     text-align: left;
-    padding: 190px 120px 0px 120px;
+    padding: 120px 120px 0px 120px;
     color: #303633;
     display: inline block; 
     filter: drop-shadow(2.5px 2.5px #3333);
@@ -366,7 +366,7 @@ p {
 
 .richstate {
     text-align: left;
-    padding: 30px 120px 0px 120px;
+    padding: 10px 120px 0px 120px;
     color: #303633
 }
 
