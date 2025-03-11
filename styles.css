@@ -296,7 +296,7 @@ p {
 
 .richbox {
     width: 100%;
-    height: 64vh;
+    height: 66vh;
     background-image: linear-gradient(rgb(139, 152, 105), rgb(68, 70, 69));
 }
 
@@ -357,7 +357,7 @@ p {
 
 .richproblem {
     text-align: left;
-    padding: 120px 120px 0px 120px;
+    padding: 90px 120px 0px 120px;
     color: #303633;
     display: inline block;
     filter: drop-shadow(2.5px 2.5px #3333);
