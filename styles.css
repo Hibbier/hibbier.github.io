@@ -296,12 +296,12 @@ p {
 
 .richbox {
     width: 100%;
-    height: 60vh;
+    height: 64vh;
     background-image: linear-gradient(rgb(139, 152, 105), rgb(139, 152, 105));
 }
 
 .richphone {
-    padding: 60px 90px 120px 150px;
+    padding: 60px 120px 60px 150px;
     height: 1000px;
     width: 700px;
 }
@@ -324,7 +324,7 @@ p {
 
 .richhook {
     text-align: left;
-    padding: 60px 10px 0px 90px;
+    padding: 120px 10px 0px 10px;
     color: #303633;
     font-family: "Ribeye", sans-serif;
 
@@ -351,7 +351,7 @@ p {
 
 .richbackinfo {
     text-align: left;
-    padding: 10px 90px 0px 90px;
+    padding: 10px 90px 0px 30px;
     color: #303633;
 }
 
@@ -366,7 +366,7 @@ p {
 
 .richstate {
     text-align: left;
-    padding: 10px 90px 0px 90px;
+    padding: 10px 60px 0px 60px;
     color: #303633
     
 }
