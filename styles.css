@@ -372,8 +372,10 @@ p {
 }
 
 .richwire {
-    text-align: left;
+    text-align: top, left;
     padding: 120px 0px 0px 120px;
+    height: 1000px;
+    width: 600px;
     color: #303633;
     display: inline block;
     filter: drop-shadow(2.5px 2.5px #3333)
