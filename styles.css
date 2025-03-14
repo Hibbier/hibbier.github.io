@@ -373,7 +373,7 @@ p {
 
 .richwire {
     text-align: left;
-    padding: 180px 120px 0px 120px;
+    padding: 180px 150px 0px 150px;
     color: #303633;
     display: inline block;
     filter: drop-shadow(2.5px 2.5px #3333)
@@ -381,7 +381,7 @@ p {
 
 .richwireimg {
     align: left; 
-    padding: 30px 120px 30px 120px; 
+    padding: 30px 150px 30px 150px; 
     height: 700px; 
     width: 600px; 
 }
