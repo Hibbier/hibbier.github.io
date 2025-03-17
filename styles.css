@@ -380,7 +380,7 @@ p {
 }
 
 .richwireimg {
-    padding: 60px 120px 120px 150px;
+    padding: 60px 120px 0px 150px;
     height: 800px; 
     width: 600px; 
 }
