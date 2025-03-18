@@ -381,14 +381,14 @@ p {
 
 .richwireimg {
     align: left; 
-    padding: 60px 120px 120px 150px; 
+    padding: 60px 120px 30px 150px; 
     height: 800px; 
     width: 600px; 
 }
 
 .richwireimg2 {
     align: left; 
-    padding: 60px; 
+    padding: 60px 120px 30px 150px; 
     height: 800px;
     width: 600px;
 }
@@ -396,7 +396,7 @@ p {
 .richwireinfo {
     text-align: left; 
     padding: 190px 150px 0px 150px; 
-}
+}      
 
 .richwireinfo2 {
     text-align: left; 
