@@ -373,32 +373,35 @@ p {
 
 .richwire {
     text-align: left;
-    padding: 150px 150px 0px 150px;
+    padding: 180px 120px 0px 150px;
     color: #303633;
     display: inline block;
     filter: drop-shadow(2.5px 2.5px #3333)
 }
 
 .richwireimg {
-    padding: 60px 120px 0px 150px;
+    align: left; 
+    padding: 60px 120px 30px 150px; 
     height: 800px; 
     width: 600px; 
 }
 
 .richwireimg2 {
-
+    align: left; 
+    padding: 30px 120px 120px 150px; 
+    height: 800px;
+    width: 600px;
 }
 
 .richwireinfo {
     text-align: left; 
-    padding: 120px 0px 60px 150px; 
+    padding: 190px 150px 0px 150px; 
 }
 
 .richwireinfo2 {
     text-align: left; 
-    padding: 60px 150px 60px 150px; 
+    padding: 60px 150px 60px 150px;
 }
-
 
 
 .souldesignslogo {
