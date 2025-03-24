@@ -307,7 +307,8 @@ p {
 }
 
 .richphoneopen {
-    align: right;
+    position: relative;
+    top: 0px; 
     padding: 0px 0px 0px 0px;
     height: 1000px;
     width: 700px;
