@@ -413,8 +413,9 @@ p {
 }
 
 .richcolourimg {
+    padding: 30px 120px 0px 120px; 
     height: 500px;
-    width: 600px;
+    width: 800px;
 }
 
 .souldesignslogo {
