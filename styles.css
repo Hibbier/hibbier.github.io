@@ -307,7 +307,7 @@ p {
 }
 
 .richphoneopen {
-    position: relative; 
+    position: relative;
     top: 0px; 
     padding: 0px 0px 0px 0px;
     height: 1000px;
@@ -389,7 +389,7 @@ p {
 
 .richwireimg2 {
     align: left; 
-    padding: 30px 120px 30px 120px; 
+    padding: 30px 120px 120px 120px; 
     height: 800px;
     width: 600px;
 }
@@ -397,7 +397,7 @@ p {
 .richwireinfo {
     text-align: left; 
     padding: 190px 150px 0px 150px; 
-}      
+}
 
 .richwireinfo2 {
     text-align: left; 
@@ -406,28 +406,29 @@ p {
 
 .richcolourh1 {
     text-align: left;
-    padding: 400px 120px 0px 120px;
-    color: #303633;;
-    display: inline block;
-    filter: drop-shadow(2.5px 2.5px #3333)
+    padding: 400px 120px 0px 120px; 
+    color: #303633;
+    display: inline block; 
+    filter: drop-shadow(2.5px 2.5px #3333) 
 }
 
 .richcolourimg {
-    float: left;
+    float: left; 
     padding: 30px 120px 30px 120px; 
-    height: 500px;
-    width: 800px;
+    height: 500px; 
+    width: 800px; 
 }
-
+ 
 .richcolourinfo {
-    text-align: left; 
-    padding: 90px 120px 30px 120px;
+    text-align: left;
+    padding: 90px 120px 30px 120px; 
+}
+.richcolourinfo2 {
+    text-align: left;
+    padding: 30px 120px 30px 120px;
 }
 
-.richcolourinfo2 {
-    text-align: left; 
-    padding: 30px 120px 60px 120px;
-}
+
 
 .souldesignslogo {
     padding: 90px 0px 0px 120px;
