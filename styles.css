@@ -405,7 +405,7 @@ p {
 }
 
 .richcolourh1 {
-    text-align: left;
+    text-align: left; 
     padding: 400px 120px 0px 120px; 
     color: #303633;
     display: inline block; 
