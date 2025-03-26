@@ -413,9 +413,20 @@ p {
 }
 
 .richcolourimg {
+    float: left;
     padding: 30px 120px 30px 120px; 
     height: 500px;
     width: 800px;
+}
+
+.richcolourinfo {
+    text-align: left; 
+    padding: 90px 120px 30px 120px;
+}
+
+.richcolourinfo2 {
+    text-align: left; 
+    padding: 30px 120px 60px 120px;
 }
 
 .souldesignslogo {
