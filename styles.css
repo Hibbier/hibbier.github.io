@@ -421,11 +421,23 @@ p {
  
 .richcolourinfo {
     text-align: left;
-    padding: 30px 120px 30px 120px; 
+    padding: 90px 120px 30px 120px; 
 }
 .richcolourinfo2 {
     text-align: left;
     padding: 0px 120px 30px 120px;
+}
+
+.richschemeh1 {
+    text-align: left; 
+    padding: 180px 120px 0px 120px; 
+}
+
+.richwirecolourimg {
+    align: left; 
+    padding: 30px 120px 30px 120px; 
+    height: 600px;
+    width: 900px;
 }
 
 
