@@ -435,11 +435,23 @@ p {
 }
 
 .richwirecolourimg {
-    align: left;
+    float: left; 
     padding: 30px 120px 30px 120px; 
     height: 600px;
     width: 900px; 
 }
+
+.richwirecolourinfo {
+    text-align: left; 
+    padding: 120px 120px 30px 120px; 
+}
+
+.richwirecolourinfo2 {
+    text-align: left; 
+    padding: 30px 120px 30px 120px; 
+}
+
+
 
 
 .souldesignslogo {
