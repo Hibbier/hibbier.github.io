@@ -421,6 +421,7 @@ p {
  
 .richcolourinfo {
     text-align: left;
+    color: #303633;
     padding: 90px 120px 30px 120px; 
 }
 .richcolourinfo2 {
@@ -430,6 +431,7 @@ p {
 
 .richschemeh1 {
     text-align: left; 
+    color: #303633;
     padding: 200px 120px 0px 120px; 
 }
 
@@ -448,6 +450,18 @@ p {
 .richwirecolourinfo2 {
     text-align: left;
     padding: 30px 120px 30px 120px; 
+}
+
+.richtypeh1 {
+    text-align: left;
+    color: #303633;
+    padding: 120px 120px 30px 120px;
+     
+} 
+
+.richtypeimg {
+    padding: 30px 120px 30px 120px; 
+    height: 200px; 
 }
 
 
@@ -507,3 +521,4 @@ p {
     padding: 0px 10px 0px 120px;
     color: #605B56;
 }
+
