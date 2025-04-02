@@ -451,6 +451,17 @@ p {
     padding: 30px 120px 30px 120px; 
 }
 
+.richtypeh1 {
+    text-align: left;
+    color: #303633; 
+    padding: 120px 120px 30px 120px;  
+}
+
+.richtypeimg {
+    padding: 30px 120px 30px 120px; 
+    height: 200px; 
+}
+
 
 
 
