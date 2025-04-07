@@ -459,21 +459,27 @@ p {
 
 .richtypeimg {
     float: left; 
-    padding: 30px 180px 30px 120px; 
+    padding: 30px 170px 30px 120px; 
     height: 200px; 
 }
 
 .richtypeimg2 {
     float: left; 
-    padding: 0px 180px 30px 120px; 
+    padding: 0px 100px 30px 120px; 
     height: 100px; 
-    width: 750px; 
+    width: 700px; 
 }
 
 .richtypetext {
     text-align: left; 
-    padding: 60px 120px 0px 120px; 
+    padding: 0px 120px 0px 120px; 
 }
+
+.richtypetext2 {
+        text-align: left; 
+        padding: 30px 120px 0px 120px; 
+    }
+
 
 
 
